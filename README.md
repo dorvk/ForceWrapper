@@ -7,7 +7,7 @@ How to use
 
 Copy the file `ForceWrapper.swift` into your project.
 
-Create instance from anywhere you want to use. You don't need to `import CoreData` anywhere, nor AppDelegate configurations. Just do not forget to implement NSManagedObject while initialization.
+Create your properties adding `@ForceWrapper(default: )`
 
     @ForceWrapper(default: 0) var number: Int?
     
@@ -17,9 +17,11 @@ Create instance from anywhere you want to use. You don't need to `import CoreDat
     print($number.safeValue)
     
     // prints 0
+    
+    @ForceWrapper(default: "null") var text: String?
 
-    number = 7
-    print($number.safeValue)
-    prints($number.safeValue)
+    text = "NotNull"
+    print(text!)
+    print($text.safeValue)
   
-    // prints 7
+    // prints NotNull
