@@ -17,7 +17,7 @@ Examples
     number = nil
     
     print(number!)
-    or
+    // or
     print($number.safeValue)
     
     // prints 0
@@ -25,7 +25,7 @@ Examples
     number = 7
     
     print(number!)
-    or
+    // or
     print($number.safeValue)
     
     // prints 7
@@ -35,7 +35,7 @@ Examples
     text = "apple"
     
     print(text!)
-    or
+    // or
     print($text.safeValue)
   
     // prints apple
