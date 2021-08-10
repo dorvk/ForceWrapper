@@ -7,7 +7,7 @@ How to use
 
 Copy the file `ForceWrapper.swift` into your project.
 
-Create your properties adding `@ForceWrapper(default: )`
+Create your properties with `@ForceWrapper(default: )`
 
     @ForceWrapper(default: 0) var number: Int?
     
