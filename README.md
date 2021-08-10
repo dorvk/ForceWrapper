@@ -9,6 +9,9 @@ Copy the file `ForceWrapper.swift` into your project.
 
 Create your properties with `@ForceWrapper(default: )`
 
+Examples
+------------
+
     @ForceWrapper(default: 0) var number: Int?
     
     number = nil
