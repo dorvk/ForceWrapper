@@ -21,6 +21,13 @@ Examples
     
     // prints 0
     
+    number = 7
+    
+    print(number!)
+    print($number.safeValue)
+    
+    // prints 7
+    
     @ForceWrapper(default: "null") var text: String?
 
     text = "apple"
