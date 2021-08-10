@@ -19,14 +19,14 @@ Examples
     print(number!)
     print($number.safeValue)
     
-    // prints 0
+// prints 0
     
     number = 7
     
     print(number!)
     print($number.safeValue)
     
-    // prints 7
+// prints 7
     
     @ForceWrapper(default: "null") var text: String?
 
@@ -35,4 +35,4 @@ Examples
     print(text!)
     print($text.safeValue)
   
-    // prints apple
+// prints apple
