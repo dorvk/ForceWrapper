@@ -23,8 +23,9 @@ Examples
     
     @ForceWrapper(default: "null") var text: String?
 
-    text = "NotNull"
+    text = "apple"
+    
     print(text!)
     print($text.safeValue)
   
-    // prints NotNull
+    // prints apple
