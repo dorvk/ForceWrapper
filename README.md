@@ -16,10 +16,10 @@ Create instance from anywhere you want to use. You don't need to `import CoreDat
     print(number!)
     print($number.safeValue)
     
-// prints 0
+    // prints 0
 
     number = 7
     print($number.safeValue)
     prints($number.safeValue)
   
-// prints 7
+    // prints 7
