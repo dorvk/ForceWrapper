@@ -13,6 +13,7 @@ struct ForceWrapper<T> {
     
     init(default value: T) {
         self.defaultValue = value
+        self.wrappedValue = value
     }
     
     var wrappedValue: T? {
